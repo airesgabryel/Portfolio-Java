@@ -25,13 +25,12 @@ public class PrimeiroPrograma {
                 Muito bom!
                 Ano de lançamento
                 """ + anoDeLancamento;
-        //^ Text Blocks
 
-        //v Metodo Formatted
 
 
         System.out.println(sinopse);
 
-        //Text Blocks
+        int classificacao = (int) (media / 2);
+        System.out.println(classificacao);
     }
 }
